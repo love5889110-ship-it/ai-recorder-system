@@ -1,0 +1,13 @@
+{
+  "apiType": "stageMode",
+  "buildOption": {
+    "sourceOption": {
+      "workers": []
+    }
+  },
+  "targets": [
+    {
+      "name": "default"
+    }
+  ]
+}

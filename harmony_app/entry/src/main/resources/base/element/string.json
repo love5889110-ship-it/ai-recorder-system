@@ -1,0 +1,8 @@
+{
+  "string": [
+    { "name": "app_name", "value": "AI对话助手" },
+    { "name": "module_desc", "value": "自动录音与上传模块" },
+    { "name": "EntryAbility_desc", "value": "主界面" },
+    { "name": "EntryAbility_label", "value": "AI对话助手" }
+  ]
+}

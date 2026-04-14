@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+*.db
+*.db-shm
+*.db-wal
+uploads/
+logs/
+profiles/
+family/
+*.plist
+.env
+.DS_Store

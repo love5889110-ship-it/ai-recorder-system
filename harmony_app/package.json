@@ -1,0 +1,17 @@
+{
+  "name": "ai-recorder",
+  "version": "1.0.0",
+  "ohos": {
+    "org": "huawei",
+    "buildTool": "hvigor",
+    "directoryLevel": "project"
+  },
+  "description": "AI录音助手",
+  "repository": {},
+  "license": "ISC",
+  "dependencies": {
+    "@ohos/hypium": "1.0.18",
+    "@ohos/hvigor": "6.22.4",
+    "@ohos/hvigor-ohos-plugin": "6.22.4"
+  }
+}

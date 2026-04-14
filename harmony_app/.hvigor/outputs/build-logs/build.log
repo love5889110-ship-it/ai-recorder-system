@@ -1,0 +1,1443 @@
+[2026-04-11T14:36:19.530] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-04-11T14:36:19.538] [DEBUG] debug-file - begin to create new key files
+[2026-04-11T14:36:19.531] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  hvigorVersion: '6.22.4',
+  dependencies: {
+    '@ohos/hvigor-ohos-plugin': 'file:/Applications/DevEco-Studio.app/Contents/tools/hvigor/hvigor-ohos-plugin'
+  }
+}
+[2026-04-11T14:36:19.550] [DEBUG] debug-file - env: daemon=true
+[2026-04-11T14:36:19.836] [DEBUG] debug-file - java daemon started at port 45050 pid 15633
+[2026-04-11T14:46:57.486] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-04-11T14:46:57.501] [DEBUG] debug-file - env: daemon=true
+[2026-04-11T14:46:57.487] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  hvigorVersion: '6.22.4',
+  dependencies: {
+    '@ohos/hvigor-ohos-plugin': 'file:/Applications/DevEco-Studio.app/Contents/tools/hvigor/hvigor-ohos-plugin'
+  }
+}
+[2026-04-11T14:46:57.737] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2026-04-11T14:46:57.738] [DEBUG] debug-file - java daemon started at port 45050 pid 15923
+[2026-04-11T14:51:22.949] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-04-11T14:51:23.120] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-11T14:51:22.950] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  hvigorVersion: '6.22.4',
+  dependencies: {
+    '@ohos/hvigor-ohos-plugin': 'file:/Applications/DevEco-Studio.app/Contents/tools/hvigor/hvigor-ohos-plugin'
+  }
+}
+[2026-04-11T14:51:23.120] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-11T14:51:23.128] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-04-11T14:51:22.950] [DEBUG] debug-file - env: daemon=false
+[2026-04-11T14:51:23.120] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-11T14:51:23.130] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-04-11T14:51:22.950] [DEBUG] debug-file - no-daemon, use the default node options
+[2026-04-11T14:51:23.122] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-04-11T14:51:23.132] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2026-04-11T14:51:23.122] [ERROR] debug-file - [31m00303148 Configuration Error
+Error Message: Hvigorfile not found. At file: /Users/zhangyang/ai-wechat-digest/harmony_app/hvigorfile.ts
+
+* Try the following:
+  > Ensure that both the project and the module contain a hvigorfile.ts.
+[39m
+
+[31m* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+[2026-04-11T14:51:23.132] [DEBUG] debug-file - Clear worker 0.
+[2026-04-11T14:51:23.123] [DEBUG] debug-file - ERROR: stacktrace = AdaptorError: [31m00303148 Configuration Error
+Error Message: Hvigorfile not found. At file: /Users/zhangyang/ai-wechat-digest/harmony_app/hvigorfile.ts
+
+* Try the following:
+  > Ensure that both the project and the module contain a hvigorfile.ts.
+[39m
+    at HvigorLogger.printErrorExit (/Applications/DevEco-Studio.app/Contents/tools/hvigor/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at findRealHvigorFilePath (/Applications/DevEco-Studio.app/Contents/tools/hvigor/hvigor/src/base/util/file-util.js:1:1467)
+    at evalProject (/Applications/DevEco-Studio.app/Contents/tools/hvigor/hvigor/src/base/internal/lifecycle/configuration.js:1:3615)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async configuration (/Applications/DevEco-Studio.app/Contents/tools/hvigor/hvigor/src/base/internal/lifecycle/configuration.js:1:2288)
+    at async start (/Applications/DevEco-Studio.app/Contents/tools/hvigor/hvigor/src/base/boot/index.js:1:2570)
+    at async boot (/Applications/DevEco-Studio.app/Contents/tools/hvigor/hvigor/src/base/boot/index.js:1:1789)
+    at async startHvigorBuild (/Applications/DevEco-Studio.app/Contents/tools/hvigor/hvigor/src/cli/main/cli.js:1:7577)
+[2026-04-11T14:51:23.132] [DEBUG] debug-file - Worker 0 has been cleared.
+[2026-04-11T14:51:23.123] [ERROR] debug-file - AdaptorError: [31m00303148 Configuration Error
+Error Message: Hvigorfile not found. At file: /Users/zhangyang/ai-wechat-digest/harmony_app/hvigorfile.ts
+
+* Try the following:
+  > Ensure that both the project and the module contain a hvigorfile.ts.
+[39m
+    at HvigorLogger.printErrorExit (/Applications/DevEco-Studio.app/Contents/tools/hvigor/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at findRealHvigorFilePath (/Applications/DevEco-Studio.app/Contents/tools/hvigor/hvigor/src/base/util/file-util.js:1:1467)
+    at evalProject (/Applications/DevEco-Studio.app/Contents/tools/hvigor/hvigor/src/base/internal/lifecycle/configuration.js:1:3615)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async configuration (/Applications/DevEco-Studio.app/Contents/tools/hvigor/hvigor/src/base/internal/lifecycle/configuration.js:1:2288)
+    at async start (/Applications/DevEco-Studio.app/Contents/tools/hvigor/hvigor/src/base/boot/index.js:1:2570)
+    at async boot (/Applications/DevEco-Studio.app/Contents/tools/hvigor/hvigor/src/base/boot/index.js:1:1789)
+    at async startHvigorBuild (/Applications/DevEco-Studio.app/Contents/tools/hvigor/hvigor/src/cli/main/cli.js:1:7577)
+[2026-04-11T14:51:23.132] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-04-11T14:51:23.124] [ERROR] debug-file - BUILD FAILED in 7 ms 
+[2026-04-11T14:51:23.132] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-04-11T14:51:23.127] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-04-11T14:51:23.132] [DEBUG] debug-file - Clear worker 1.
+[2026-04-11T14:51:23.127] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-04-11T14:51:23.132] [DEBUG] debug-file - Worker 1 has been cleared.
+[2026-04-11T14:51:23.133] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-04-11T14:51:23.133] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-04-11T14:51:23.133] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-11T14:51:23.137] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2026-04-11T14:51:23.137] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2026-04-11T14:51:23.137] [DEBUG] debug-file - Current worker pool is terminated.
+[2026-04-11T14:51:55.353] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-04-11T14:51:55.524] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-11T14:54:04.475] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-04-11T14:54:04.678] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-11T14:55:08.537] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-04-11T14:55:08.714] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-11T14:58:03.817] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-04-11T14:58:03.977] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-11T14:58:04.794] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: appTasks], plugins: [] } }
+[2026-04-11T14:58:04.795] [DEBUG] debug-file - Starting plugin build process
+[2026-04-11T14:58:04.893] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-04-11T14:58:03.817] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  hvigorVersion: '6.22.4',
+  dependencies: {
+    '@ohos/hvigor-ohos-plugin': 'file:/Applications/DevEco-Studio.app/Contents/tools/hvigor/hvigor-ohos-plugin'
+  }
+}
+[2026-04-11T14:58:03.978] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-11T14:58:04.901] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-04-11T14:58:04.795] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: appTasks]
+[2026-04-11T14:58:04.893] [ERROR] debug-file - [31m00303038 Configuration Error
+Error Message: Schema validate failed, at file: /Users/zhangyang/ai-wechat-digest/harmony_app/build-profile.json5
+
+* Try the following:
+  > Please check the following fields. 
+ {
+  instancePath: 'app.products[0].compileSdkVersion',
+  keyword: 'type',
+  params: { type: 'string' },
+  message: 'must be string',
+  location: '/Users/zhangyang/ai-wechat-digest/harmony_app/build-profile.json5:8:32'
+} 
+{
+  instancePath: 'app.products[0].compatibleSdkVersion',
+  keyword: 'type',
+  params: { type: 'string' },
+  message: 'must be string',
+  location: '/Users/zhangyang/ai-wechat-digest/harmony_app/build-profile.json5:9:35'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'if',
+  params: { failingKeyword: 'then' },
+  message: 'must match "then" schema',
+  location: '/Users/zhangyang/ai-wechat-digest/harmony_app/build-profile.json5:5:8'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'if',
+  params: { failingKeyword: 'then' },
+  message: 'must match "then" schema',
+  location: '/Users/zhangyang/ai-wechat-digest/harmony_app/build-profile.json5:5:8'
+} 
+
+[39m
+
+[31m* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+[2026-04-11T14:58:04.795] [DEBUG] debug-file - App plugin prepare start...
+[2026-04-11T14:58:03.818] [DEBUG] debug-file - env: daemon=false
+[2026-04-11T14:58:03.978] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-11T14:58:04.902] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-04-11T14:58:04.894] [DEBUG] debug-file - ERROR: stacktrace = AdaptorError: [31m00303038 Configuration Error
+Error Message: Schema validate failed, at file: /Users/zhangyang/ai-wechat-digest/harmony_app/build-profile.json5
+
+* Try the following:
+  > Please check the following fields. 
+ {
+  instancePath: 'app.products[0].compileSdkVersion',
+  keyword: 'type',
+  params: { type: 'string' },
+  message: 'must be string',
+  location: '/Users/zhangyang/ai-wechat-digest/harmony_app/build-profile.json5:8:32'
+} 
+{
+  instancePath: 'app.products[0].compatibleSdkVersion',
+  keyword: 'type',
+  params: { type: 'string' },
+  message: 'must be string',
+  location: '/Users/zhangyang/ai-wechat-digest/harmony_app/build-profile.json5:9:35'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'if',
+  params: { failingKeyword: 'then' },
+  message: 'must match "then" schema',
+  location: '/Users/zhangyang/ai-wechat-digest/harmony_app/build-profile.json5:5:8'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'if',
+  params: { failingKeyword: 'then' },
+  message: 'must match "then" schema',
+  location: '/Users/zhangyang/ai-wechat-digest/harmony_app/build-profile.json5:5:8'
+} 
+
+[39m
+    at OhosLogger.printErrorExit (/Users/zhangyang/.hvigor/tools/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at ValidateUtil.doSchemaCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/validate/validate-util.js:1:8177)
+    at ValidateUtil.submitSchemaCheckWork (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/validate/validate-util.js:1:7013)
+    at ProjectModelImpl.projectBuildProfileCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:9192)
+    at new CoreProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:2627)
+    at new ProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/project-model-impl.js:1:596)
+    at new AppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/strategy/stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/app-plugin-builder.js:1:1485)
+    at AppPluginBuilder.build (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/abstract-plugin-builder.js:1:756)
+[2026-04-11T14:58:03.818] [DEBUG] debug-file - no-daemon, use the default node options
+[2026-04-11T14:58:04.795] [DEBUG] debug-file - App plugin prepare end...
+[2026-04-11T14:58:03.979] [DEBUG] debug-file - hvigorfile, resolving /Users/zhangyang/ai-wechat-digest/harmony_app/hvigorfile.ts
+[2026-04-11T14:58:04.903] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2026-04-11T14:58:04.894] [ERROR] debug-file - AdaptorError: [31m00303038 Configuration Error
+Error Message: Schema validate failed, at file: /Users/zhangyang/ai-wechat-digest/harmony_app/build-profile.json5
+
+* Try the following:
+  > Please check the following fields. 
+ {
+  instancePath: 'app.products[0].compileSdkVersion',
+  keyword: 'type',
+  params: { type: 'string' },
+  message: 'must be string',
+  location: '/Users/zhangyang/ai-wechat-digest/harmony_app/build-profile.json5:8:32'
+} 
+{
+  instancePath: 'app.products[0].compatibleSdkVersion',
+  keyword: 'type',
+  params: { type: 'string' },
+  message: 'must be string',
+  location: '/Users/zhangyang/ai-wechat-digest/harmony_app/build-profile.json5:9:35'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'if',
+  params: { failingKeyword: 'then' },
+  message: 'must match "then" schema',
+  location: '/Users/zhangyang/ai-wechat-digest/harmony_app/build-profile.json5:5:8'
+} 
+{
+  instancePath: 'app.products[0]',
+  keyword: 'if',
+  params: { failingKeyword: 'then' },
+  message: 'must match "then" schema',
+  location: '/Users/zhangyang/ai-wechat-digest/harmony_app/build-profile.json5:5:8'
+} 
+
+[39m
+    at OhosLogger.printErrorExit (/Users/zhangyang/.hvigor/tools/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at ValidateUtil.doSchemaCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/validate/validate-util.js:1:8177)
+    at ValidateUtil.submitSchemaCheckWork (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/validate/validate-util.js:1:7013)
+    at ProjectModelImpl.projectBuildProfileCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:9192)
+    at new CoreProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:2627)
+    at new ProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/project-model-impl.js:1:596)
+    at new AppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/strategy/stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/app-plugin-builder.js:1:1485)
+    at AppPluginBuilder.build (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/abstract-plugin-builder.js:1:756)
+[2026-04-11T14:58:04.795] [DEBUG] debug-file - App plugin creating...
+[2026-04-11T14:58:04.904] [DEBUG] debug-file - Clear worker 0.
+[2026-04-11T14:58:04.895] [ERROR] debug-file - BUILD FAILED in 920 ms 
+[2026-04-11T14:58:04.904] [DEBUG] debug-file - Worker 0 has been cleared.
+[2026-04-11T14:58:04.900] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-04-11T14:58:04.904] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-04-11T14:58:04.900] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-04-11T14:58:04.904] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-04-11T14:58:04.904] [DEBUG] debug-file - Clear worker 1.
+[2026-04-11T14:58:04.904] [DEBUG] debug-file - Worker 1 has been cleared.
+[2026-04-11T14:58:04.904] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-04-11T14:58:04.904] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-04-11T14:58:04.908] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-11T14:58:04.911] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2026-04-11T14:58:04.911] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2026-04-11T14:58:04.911] [DEBUG] debug-file - Current worker pool is terminated.
+[2026-04-11T15:01:55.558] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-04-11T15:01:55.717] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-11T15:01:56.768] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-04-11T15:01:56.676] [DEBUG] debug-file - Starting plugin build process
+[2026-04-11T15:01:56.674] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: appTasks], plugins: [] } }
+[2026-04-11T15:01:55.558] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  hvigorVersion: '6.22.4',
+  dependencies: {
+    '@ohos/hvigor-ohos-plugin': 'file:/Applications/DevEco-Studio.app/Contents/tools/hvigor/hvigor-ohos-plugin'
+  }
+}
+[2026-04-11T15:01:55.717] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-11T15:01:56.776] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-04-11T15:01:56.768] [ERROR] debug-file - [31m00303024 Configuration Error
+Error Message: The project structure and configuration need to be upgraded before use.
+
+* Try the following:
+  > Use the migration tool to update the project structure and configuration with Deveco Studio, or refer to the guide to manually update the project structure and configuration.
+[39m
+
+[31m* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+[2026-04-11T15:01:56.676] [DEBUG] debug-file - App plugin prepare start...
+[2026-04-11T15:01:56.675] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: appTasks]
+[2026-04-11T15:01:55.559] [DEBUG] debug-file - env: daemon=false
+[2026-04-11T15:01:55.718] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-11T15:01:56.777] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-04-11T15:01:56.769] [DEBUG] debug-file - ERROR: stacktrace = AdaptorError: [31m00303024 Configuration Error
+Error Message: The project structure and configuration need to be upgraded before use.
+
+* Try the following:
+  > Use the migration tool to update the project structure and configuration with Deveco Studio, or refer to the guide to manually update the project structure and configuration.
+[39m
+    at OhosLogger.printErrorExit (/Users/zhangyang/.hvigor/tools/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at ValidateUtil.modelVersionCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/validate/validate-util.js:1:3745)
+    at ProjectModelImpl.projectStatusCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:5872)
+    at new CoreProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:2843)
+    at new ProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/project-model-impl.js:1:596)
+    at new AppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/strategy/stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/app-plugin-builder.js:1:1485)
+    at AppPluginBuilder.build (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/abstract-plugin-builder.js:1:756)
+    at PluginFactory.getAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/factory/plugin-factory.js:1:481)
+[2026-04-11T15:01:56.676] [DEBUG] debug-file - App plugin prepare end...
+[2026-04-11T15:01:55.559] [DEBUG] debug-file - no-daemon, use the default node options
+[2026-04-11T15:01:55.719] [DEBUG] debug-file - hvigorfile, resolving /Users/zhangyang/ai-wechat-digest/harmony_app/hvigorfile.ts
+[2026-04-11T15:01:56.778] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2026-04-11T15:01:56.769] [ERROR] debug-file - AdaptorError: [31m00303024 Configuration Error
+Error Message: The project structure and configuration need to be upgraded before use.
+
+* Try the following:
+  > Use the migration tool to update the project structure and configuration with Deveco Studio, or refer to the guide to manually update the project structure and configuration.
+[39m
+    at OhosLogger.printErrorExit (/Users/zhangyang/.hvigor/tools/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at ValidateUtil.modelVersionCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/validate/validate-util.js:1:3745)
+    at ProjectModelImpl.projectStatusCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:5872)
+    at new CoreProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:2843)
+    at new ProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/project-model-impl.js:1:596)
+    at new AppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/strategy/stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/app-plugin-builder.js:1:1485)
+    at AppPluginBuilder.build (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/abstract-plugin-builder.js:1:756)
+    at PluginFactory.getAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/factory/plugin-factory.js:1:481)
+[2026-04-11T15:01:56.676] [DEBUG] debug-file - App plugin creating...
+[2026-04-11T15:01:56.778] [DEBUG] debug-file - Clear worker 0.
+[2026-04-11T15:01:56.769] [ERROR] debug-file - BUILD FAILED in 1 s 56 ms 
+[2026-04-11T15:01:56.778] [DEBUG] debug-file - Worker 0 has been cleared.
+[2026-04-11T15:01:56.775] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-04-11T15:01:56.778] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-04-11T15:01:56.775] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-04-11T15:01:56.778] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-04-11T15:01:56.778] [DEBUG] debug-file - Clear worker 1.
+[2026-04-11T15:01:56.778] [DEBUG] debug-file - Worker 1 has been cleared.
+[2026-04-11T15:01:56.778] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-04-11T15:01:56.778] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-04-11T15:01:56.782] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-11T15:01:56.785] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2026-04-11T15:01:56.785] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2026-04-11T15:01:56.785] [DEBUG] debug-file - Current worker pool is terminated.
+[2026-04-11T15:08:06.142] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-04-11T15:08:06.154] [DEBUG] debug-file - env: daemon=true
+[2026-04-11T15:08:06.143] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  hvigorVersion: '6.22.4',
+  dependencies: {
+    '@ohos/hvigor-ohos-plugin': 'file:/Applications/DevEco-Studio.app/Contents/tools/hvigor/hvigor-ohos-plugin'
+  }
+}
+[2026-04-11T15:08:06.392] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2026-04-11T15:08:06.394] [DEBUG] debug-file - java daemon started at port 45050 pid 17006
+[2026-04-11T15:08:06.414] [DEBUG] debug-file - session manager: set active socket. socketId=r2tlsUdk4ST192ewAAAB
+[2026-04-11T15:08:06.658] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:08:06.659] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-04-11T15:08:06.659] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-04-11T15:08:06.659] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-04-11T15:08:06.661] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-04-11T15:08:06.662] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-11T15:08:06.672] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-11T15:08:06.672] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-11T15:08:06.673] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2026-04-11T15:08:06.674] [DEBUG] debug-file - hvigorfile, resolving /Users/zhangyang/ai-wechat-digest/harmony_app/hvigorfile.ts
+[2026-04-11T15:08:07.589] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-04-11T15:08:07.589] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-04-11T15:08:07.590] [DEBUG] debug-file - Starting plugin build process
+[2026-04-11T15:08:07.590] [DEBUG] debug-file - App plugin prepare start...
+[2026-04-11T15:08:07.590] [DEBUG] debug-file - App plugin prepare end...
+[2026-04-11T15:08:07.590] [DEBUG] debug-file - App plugin creating...
+[2026-04-11T15:08:07.698] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-04-11T15:08:07.698] [ERROR] debug-file - [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+
+[31m* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+[2026-04-11T15:08:07.698] [DEBUG] debug-file - ERROR: stacktrace = AdaptorError: [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+    at HvigorLogger.printErrorExit (/Users/zhangyang/.hvigor/tools/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at Hvigor._getRootNode (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1269)
+    at Hvigor.getRootNodeInternal (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1108)
+    at ProjectBuildProfileLoader.getBuildProfile (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/loader/file/project-build-profile-loader.js:1:690)
+    at ProjectModelImpl.projectBuildProfileCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:9331)
+    at new CoreProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:2627)
+    at new ProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/project-model-impl.js:1:596)
+    at new AppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/strategy/stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/app-plugin-builder.js:1:1485)
+[2026-04-11T15:08:07.698] [ERROR] debug-file - AdaptorError: [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+    at HvigorLogger.printErrorExit (/Users/zhangyang/.hvigor/tools/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at Hvigor._getRootNode (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1269)
+    at Hvigor.getRootNodeInternal (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1108)
+    at ProjectBuildProfileLoader.getBuildProfile (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/loader/file/project-build-profile-loader.js:1:690)
+    at ProjectModelImpl.projectBuildProfileCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:9331)
+    at new CoreProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:2627)
+    at new ProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/project-model-impl.js:1:596)
+    at new AppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/strategy/stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/app-plugin-builder.js:1:1485)
+[2026-04-11T15:08:07.699] [ERROR] debug-file - BUILD FAILED in 1 s 36 ms 
+[2026-04-11T15:08:07.701] [DEBUG] debug-file - Cleanup worker 0.
+[2026-04-11T15:08:07.701] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2026-04-11T15:08:07.701] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-04-11T15:08:07.702] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-04-11T15:08:07.702] [DEBUG] debug-file - Cleanup worker 1.
+[2026-04-11T15:08:07.702] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2026-04-11T15:08:07.702] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-04-11T15:08:07.702] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-04-11T15:08:07.704] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-11T15:08:07.704] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-11T15:08:07.730] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-11T15:08:07.732] [DEBUG] debug-file - worker[1] exits with exit code 1.
+[2026-04-11T15:08:07.732] [DEBUG] debug-file - worker[0] exits with exit code 1.
+[2026-04-11T15:08:07.733] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:08:07.734] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:08:07.734] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:08:07.734] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:12:45.473] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-04-11T15:12:45.638] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-11T15:12:46.568] [DEBUG] debug-file - Starting plugin build process
+[2026-04-11T15:12:45.474] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '6.0.2', dependencies: {} }
+[2026-04-11T15:12:45.638] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-11T15:12:46.669] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-04-11T15:12:46.568] [DEBUG] debug-file - App plugin prepare start...
+[2026-04-11T15:12:45.475] [DEBUG] debug-file - env: daemon=false
+[2026-04-11T15:12:45.639] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-11T15:12:46.670] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-04-11T15:12:46.568] [DEBUG] debug-file - App plugin prepare end...
+[2026-04-11T15:12:45.475] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--max-semi-space-size=16,--expose-gc
+[2026-04-11T15:12:45.640] [DEBUG] debug-file - hvigorfile, resolving /Users/zhangyang/ai-wechat-digest/harmony_app/hvigorfile.ts
+[2026-04-11T15:12:46.671] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2026-04-11T15:12:46.568] [DEBUG] debug-file - App plugin creating...
+[2026-04-11T15:12:46.566] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: appTasks], plugins: [] } }
+[2026-04-11T15:12:46.671] [DEBUG] debug-file - Clear worker 0.
+[2026-04-11T15:12:46.671] [DEBUG] debug-file - Worker 0 has been cleared.
+[2026-04-11T15:12:46.566] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: appTasks]
+[2026-04-11T15:12:46.671] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-04-11T15:12:46.662] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-04-11T15:12:46.671] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-04-11T15:12:46.662] [ERROR] debug-file - [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+
+[31m* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+[2026-04-11T15:12:46.671] [DEBUG] debug-file - Clear worker 1.
+[2026-04-11T15:12:46.662] [DEBUG] debug-file - ERROR: stacktrace = AdaptorError: [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+    at HvigorLogger.printErrorExit (/Users/zhangyang/.hvigor/tools/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at Hvigor._getRootNode (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1269)
+    at Hvigor.getRootNodeInternal (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1108)
+    at ProjectBuildProfileLoader.getBuildProfile (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/loader/file/project-build-profile-loader.js:1:690)
+    at ProjectModelImpl.projectBuildProfileCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:9331)
+    at new CoreProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:2627)
+    at new ProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/project-model-impl.js:1:596)
+    at new AppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/strategy/stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/app-plugin-builder.js:1:1485)
+[2026-04-11T15:12:46.671] [DEBUG] debug-file - Worker 1 has been cleared.
+[2026-04-11T15:12:46.662] [ERROR] debug-file - AdaptorError: [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+    at HvigorLogger.printErrorExit (/Users/zhangyang/.hvigor/tools/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at Hvigor._getRootNode (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1269)
+    at Hvigor.getRootNodeInternal (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1108)
+    at ProjectBuildProfileLoader.getBuildProfile (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/loader/file/project-build-profile-loader.js:1:690)
+    at ProjectModelImpl.projectBuildProfileCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:9331)
+    at new CoreProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:2627)
+    at new ProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/project-model-impl.js:1:596)
+    at new AppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/strategy/stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/app-plugin-builder.js:1:1485)
+[2026-04-11T15:12:46.671] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-04-11T15:12:46.663] [ERROR] debug-file - BUILD FAILED in 1 s 28 ms 
+[2026-04-11T15:12:46.671] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-04-11T15:12:46.668] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-04-11T15:12:46.695] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-11T15:12:46.668] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-04-11T15:12:46.698] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2026-04-11T15:12:46.698] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2026-04-11T15:12:46.698] [DEBUG] debug-file - Current worker pool is terminated.
+[2026-04-11T15:21:27.210] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-04-11T15:21:27.223] [DEBUG] debug-file - env: daemon=true
+[2026-04-11T15:21:27.211] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '6.0.2', dependencies: {} }
+[2026-04-11T15:21:27.468] [DEBUG] debug-file - session manager: set active socket. socketId=nrpR8EnPUuOjmNyfAAAB
+[2026-04-11T15:21:27.521] [DEBUG] debug-file - java daemon tryConnect success
+[2026-04-11T15:21:27.709] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:21:27.710] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-04-11T15:21:27.710] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-04-11T15:21:27.711] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-04-11T15:21:27.712] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-04-11T15:21:27.713] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-11T15:21:27.716] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-11T15:21:27.716] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-11T15:21:27.717] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2026-04-11T15:21:27.718] [DEBUG] debug-file - hvigorfile, resolving /Users/zhangyang/ai-wechat-digest/harmony_app/hvigorfile.ts
+[2026-04-11T15:21:28.604] [DEBUG] debug-file - hvigorfile, require result:  { default: {} }
+[2026-04-11T15:21:28.604] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-04-11T15:21:28.605] [DEBUG] debug-file - Starting plugin build process
+[2026-04-11T15:21:28.605] [DEBUG] debug-file - App plugin prepare start...
+[2026-04-11T15:21:28.605] [DEBUG] debug-file - App plugin prepare end...
+[2026-04-11T15:21:28.605] [DEBUG] debug-file - App plugin creating...
+[2026-04-11T15:21:28.710] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-04-11T15:21:28.710] [ERROR] debug-file - [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+
+[31m* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+[2026-04-11T15:21:28.710] [DEBUG] debug-file - ERROR: stacktrace = AdaptorError: [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+    at HvigorLogger.printErrorExit (/Users/zhangyang/.hvigor/tools/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at Hvigor._getRootNode (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1269)
+    at Hvigor.getRootNodeInternal (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1108)
+    at ProjectBuildProfileLoader.getBuildProfile (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/loader/file/project-build-profile-loader.js:1:690)
+    at ProjectModelImpl.projectBuildProfileCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:9331)
+    at new CoreProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:2627)
+    at new ProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/project-model-impl.js:1:596)
+    at new AppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/strategy/stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/app-plugin-builder.js:1:1485)
+[2026-04-11T15:21:28.710] [ERROR] debug-file - AdaptorError: [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+    at HvigorLogger.printErrorExit (/Users/zhangyang/.hvigor/tools/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at Hvigor._getRootNode (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1269)
+    at Hvigor.getRootNodeInternal (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1108)
+    at ProjectBuildProfileLoader.getBuildProfile (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/loader/file/project-build-profile-loader.js:1:690)
+    at ProjectModelImpl.projectBuildProfileCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:9331)
+    at new CoreProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:2627)
+    at new ProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/project-model-impl.js:1:596)
+    at new AppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/strategy/stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/app-plugin-builder.js:1:1485)
+[2026-04-11T15:21:28.711] [ERROR] debug-file - BUILD FAILED in 998 ms 
+[2026-04-11T15:21:28.714] [DEBUG] debug-file - Cleanup worker 0.
+[2026-04-11T15:21:28.714] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2026-04-11T15:21:28.714] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-04-11T15:21:28.714] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-04-11T15:21:28.714] [DEBUG] debug-file - Cleanup worker 1.
+[2026-04-11T15:21:28.714] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2026-04-11T15:21:28.714] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-04-11T15:21:28.714] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-04-11T15:21:28.715] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-11T15:21:28.716] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-11T15:21:28.739] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-11T15:21:28.741] [DEBUG] debug-file - worker[0] exits with exit code 1.
+[2026-04-11T15:21:28.741] [DEBUG] debug-file - worker[1] exits with exit code 1.
+[2026-04-11T15:21:28.742] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:21:28.742] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:21:28.742] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:21:28.742] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:24:53.949] [DEBUG] debug-file - session manager: set active socket. socketId=23ypqdEoQTEFh-rYAAAD
+[2026-04-11T15:24:53.951] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:24:53.954] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-11T15:24:53.956] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:24:53.958] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-11T15:24:53.958] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-11T15:24:53.958] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-11T15:24:53.959] [DEBUG] debug-file - hvigorfile, resolving /Users/zhangyang/ai-wechat-digest/harmony_app/hvigorfile.ts
+[2026-04-11T15:24:53.966] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-04-11T15:24:53.966] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-04-11T15:24:53.966] [DEBUG] debug-file - Starting plugin build process
+[2026-04-11T15:24:53.966] [DEBUG] debug-file - App plugin prepare start...
+[2026-04-11T15:24:53.966] [DEBUG] debug-file - App plugin prepare end...
+[2026-04-11T15:24:53.966] [DEBUG] debug-file - App plugin creating...
+[2026-04-11T15:24:53.968] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-04-11T15:24:53.968] [ERROR] debug-file - [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+
+[31m* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+[2026-04-11T15:24:53.969] [DEBUG] debug-file - ERROR: stacktrace = AdaptorError: [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+    at HvigorLogger.printErrorExit (/Users/zhangyang/.hvigor/tools/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at Hvigor._getRootNode (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1269)
+    at Hvigor.getRootNodeInternal (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1108)
+    at ProjectBuildProfileLoader.getBuildProfile (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/loader/file/project-build-profile-loader.js:1:690)
+    at ProjectModelImpl.projectBuildProfileCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:9331)
+    at new CoreProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:2627)
+    at new ProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/project-model-impl.js:1:596)
+    at new AppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/strategy/stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/app-plugin-builder.js:1:1485)
+[2026-04-11T15:24:53.969] [ERROR] debug-file - AdaptorError: [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+    at HvigorLogger.printErrorExit (/Users/zhangyang/.hvigor/tools/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at Hvigor._getRootNode (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1269)
+    at Hvigor.getRootNodeInternal (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1108)
+    at ProjectBuildProfileLoader.getBuildProfile (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/loader/file/project-build-profile-loader.js:1:690)
+    at ProjectModelImpl.projectBuildProfileCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:9331)
+    at new CoreProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:2627)
+    at new ProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/project-model-impl.js:1:596)
+    at new AppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/strategy/stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/app-plugin-builder.js:1:1485)
+[2026-04-11T15:24:53.969] [ERROR] debug-file - BUILD FAILED in 15 ms 
+[2026-04-11T15:24:53.970] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-04-11T15:24:53.971] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-11T15:24:53.974] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-11T15:24:53.974] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-11T15:24:53.974] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:24:53.974] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:24:53.974] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:24:53.975] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:26:03.900] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-04-11T15:26:04.120] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: true,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-11T15:26:05.112] [DEBUG] debug-file - Starting plugin build process
+[2026-04-11T15:26:03.901] [DEBUG] debug-file - env: hvigor-config.json5 content = { modelVersion: '6.0.2', dependencies: {} }
+[2026-04-11T15:26:04.120] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-11T15:26:05.112] [DEBUG] debug-file - App plugin prepare start...
+[2026-04-11T15:26:05.212] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-04-11T15:26:03.902] [DEBUG] debug-file - env: daemon=false
+[2026-04-11T15:26:04.121] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-11T15:26:05.112] [DEBUG] debug-file - App plugin prepare end...
+[2026-04-11T15:26:05.213] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-04-11T15:26:03.902] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--max-semi-space-size=16,--expose-gc,--enable-source-maps
+[2026-04-11T15:26:04.122] [DEBUG] debug-file - hvigorfile, resolving /Users/zhangyang/ai-wechat-digest/harmony_app/hvigorfile.ts
+[2026-04-11T15:26:05.112] [DEBUG] debug-file - App plugin creating...
+[2026-04-11T15:26:05.214] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2026-04-11T15:26:05.111] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: appTasks], plugins: [] } }
+[2026-04-11T15:26:05.214] [DEBUG] debug-file - Clear worker 0.
+[2026-04-11T15:26:05.111] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: appTasks]
+[2026-04-11T15:26:05.214] [DEBUG] debug-file - Worker 0 has been cleared.
+[2026-04-11T15:26:05.203] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-04-11T15:26:05.214] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-04-11T15:26:05.203] [ERROR] debug-file - [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+
+[31m* Try:
+> Run with --debug option to get more log output.
+
+[2026-04-11T15:26:05.214] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-04-11T15:26:05.204] [ERROR] debug-file - AdaptorError: [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+    at HvigorLogger.printErrorExit (/Users/zhangyang/.hvigor/tools/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at Hvigor._getRootNode (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1269)
+    at Hvigor.getRootNodeInternal (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1108)
+    at ProjectBuildProfileLoader.getBuildProfile (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/loader/file/project-build-profile-loader.js:1:690)
+    at ProjectModelImpl.projectBuildProfileCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:9331)
+    at new CoreProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:2627)
+    at new ProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/project-model-impl.js:1:596)
+    at new AppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/strategy/stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/app-plugin-builder.js:1:1485)
+[2026-04-11T15:26:05.214] [DEBUG] debug-file - Clear worker 1.
+[2026-04-11T15:26:05.205] [ERROR] debug-file - BUILD FAILED in 1 s 90 ms 
+[2026-04-11T15:26:05.214] [DEBUG] debug-file - Worker 1 has been cleared.
+[2026-04-11T15:26:05.211] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-04-11T15:26:05.214] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-04-11T15:26:05.211] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-04-11T15:26:05.214] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-04-11T15:26:05.239] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-11T15:26:05.241] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2026-04-11T15:26:05.241] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2026-04-11T15:26:05.241] [DEBUG] debug-file - Current worker pool is terminated.
+[2026-04-11T15:39:01.962] [DEBUG] debug-file - session manager: set active socket. socketId=I6bwlRHd50sshAcJAAAF
+[2026-04-11T15:39:01.964] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:39:01.967] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-11T15:39:01.968] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:39:01.969] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-11T15:39:01.969] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-11T15:39:01.970] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2026-04-11T15:39:01.971] [DEBUG] debug-file - hvigorfile, resolving /Users/zhangyang/ai-wechat-digest/harmony_app/hvigorfile.ts
+[2026-04-11T15:39:01.977] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-04-11T15:39:01.978] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-04-11T15:39:01.978] [DEBUG] debug-file - Starting plugin build process
+[2026-04-11T15:39:01.978] [DEBUG] debug-file - App plugin prepare start...
+[2026-04-11T15:39:01.978] [DEBUG] debug-file - App plugin prepare end...
+[2026-04-11T15:39:01.978] [DEBUG] debug-file - App plugin creating...
+[2026-04-11T15:39:01.980] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-04-11T15:39:01.980] [ERROR] debug-file - [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+
+[31m* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+[2026-04-11T15:39:01.980] [DEBUG] debug-file - ERROR: stacktrace = AdaptorError: [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+    at HvigorLogger.printErrorExit (/Users/zhangyang/.hvigor/tools/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at Hvigor._getRootNode (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1269)
+    at Hvigor.getRootNodeInternal (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1108)
+    at ProjectBuildProfileLoader.getBuildProfile (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/loader/file/project-build-profile-loader.js:1:690)
+    at ProjectModelImpl.projectBuildProfileCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:9331)
+    at new CoreProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:2627)
+    at new ProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/project-model-impl.js:1:596)
+    at new AppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/strategy/stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/app-plugin-builder.js:1:1485)
+[2026-04-11T15:39:01.980] [ERROR] debug-file - AdaptorError: [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+    at HvigorLogger.printErrorExit (/Users/zhangyang/.hvigor/tools/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at Hvigor._getRootNode (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1269)
+    at Hvigor.getRootNodeInternal (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1108)
+    at ProjectBuildProfileLoader.getBuildProfile (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/loader/file/project-build-profile-loader.js:1:690)
+    at ProjectModelImpl.projectBuildProfileCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:9331)
+    at new CoreProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:2627)
+    at new ProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/project-model-impl.js:1:596)
+    at new AppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/strategy/stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/app-plugin-builder.js:1:1485)
+[2026-04-11T15:39:01.980] [ERROR] debug-file - BUILD FAILED in 14 ms 
+[2026-04-11T15:39:01.983] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-04-11T15:39:01.983] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-11T15:39:01.985] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-11T15:39:01.986] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-11T15:39:01.986] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:39:01.986] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:39:01.986] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:39:01.986] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:48:17.625] [DEBUG] debug-file - session manager: set active socket. socketId=VzRbQwXeHrbavwCaAAAH
+[2026-04-11T15:48:17.627] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:48:17.629] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-11T15:48:17.631] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:48:17.632] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-11T15:48:17.632] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-11T15:48:17.632] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-11T15:48:17.633] [DEBUG] debug-file - hvigorfile, resolving /Users/zhangyang/ai-wechat-digest/harmony_app/hvigorfile.ts
+[2026-04-11T15:48:17.639] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-04-11T15:48:17.639] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-04-11T15:48:17.639] [DEBUG] debug-file - Starting plugin build process
+[2026-04-11T15:48:17.639] [DEBUG] debug-file - App plugin prepare start...
+[2026-04-11T15:48:17.639] [DEBUG] debug-file - App plugin prepare end...
+[2026-04-11T15:48:17.639] [DEBUG] debug-file - App plugin creating...
+[2026-04-11T15:48:17.646] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-04-11T15:48:17.646] [ERROR] debug-file - [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+
+[31m* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+[2026-04-11T15:48:17.646] [DEBUG] debug-file - ERROR: stacktrace = AdaptorError: [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+    at HvigorLogger.printErrorExit (/Users/zhangyang/.hvigor/tools/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at Hvigor._getRootNode (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1269)
+    at Hvigor.getRootNodeInternal (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1108)
+    at ProjectBuildProfileLoader.getBuildProfile (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/loader/file/project-build-profile-loader.js:1:690)
+    at ProjectModelImpl.projectBuildProfileCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:9331)
+    at new CoreProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:2627)
+    at new ProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/project-model-impl.js:1:596)
+    at new AppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/strategy/stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/app-plugin-builder.js:1:1485)
+[2026-04-11T15:48:17.646] [ERROR] debug-file - AdaptorError: [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+    at HvigorLogger.printErrorExit (/Users/zhangyang/.hvigor/tools/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at Hvigor._getRootNode (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1269)
+    at Hvigor.getRootNodeInternal (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1108)
+    at ProjectBuildProfileLoader.getBuildProfile (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/loader/file/project-build-profile-loader.js:1:690)
+    at ProjectModelImpl.projectBuildProfileCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:9331)
+    at new CoreProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:2627)
+    at new ProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/project-model-impl.js:1:596)
+    at new AppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/strategy/stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/app-plugin-builder.js:1:1485)
+[2026-04-11T15:48:17.646] [ERROR] debug-file - BUILD FAILED in 17 ms 
+[2026-04-11T15:48:17.649] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-04-11T15:48:17.650] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-11T15:48:17.651] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-11T15:48:17.651] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-11T15:48:17.652] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:48:17.652] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:48:17.652] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T15:48:17.652] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T18:48:28.913] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-04-11T18:48:28.926] [DEBUG] debug-file - env: daemon=true
+[2026-04-11T18:48:28.914] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '6.0.2',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2026-04-11T18:48:29.147] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2026-04-11T18:48:29.148] [DEBUG] debug-file - java daemon started at port 45050 pid 22088
+[2026-04-11T18:48:29.168] [DEBUG] debug-file - session manager: set active socket. socketId=ESGr3Yf9glrv_Ya6AAAB
+[2026-04-11T18:48:29.405] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T18:48:29.407] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-04-11T18:48:29.407] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-04-11T18:48:29.407] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-04-11T18:48:29.409] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-04-11T18:48:29.411] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-11T18:48:29.414] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-11T18:48:29.414] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-11T18:48:29.416] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2026-04-11T18:48:29.418] [DEBUG] debug-file - hvigorfile, resolving /Users/zhangyang/ai-wechat-digest/harmony_app/hvigorfile.ts
+[2026-04-11T18:48:30.414] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-04-11T18:48:30.414] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-04-11T18:48:30.414] [DEBUG] debug-file - Starting plugin build process
+[2026-04-11T18:48:30.415] [DEBUG] debug-file - App plugin prepare start...
+[2026-04-11T18:48:30.415] [DEBUG] debug-file - App plugin prepare end...
+[2026-04-11T18:48:30.415] [DEBUG] debug-file - App plugin creating...
+[2026-04-11T18:48:30.521] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-04-11T18:48:30.521] [ERROR] debug-file - [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+
+[31m* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+[2026-04-11T18:48:30.521] [DEBUG] debug-file - ERROR: stacktrace = AdaptorError: [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+    at HvigorLogger.printErrorExit (/Users/zhangyang/.hvigor/tools/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at Hvigor._getRootNode (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1269)
+    at Hvigor.getRootNodeInternal (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1108)
+    at ProjectBuildProfileLoader.getBuildProfile (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/loader/file/project-build-profile-loader.js:1:690)
+    at ProjectModelImpl.projectBuildProfileCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:9331)
+    at new CoreProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:2627)
+    at new ProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/project-model-impl.js:1:596)
+    at new AppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/strategy/stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/app-plugin-builder.js:1:1485)
+[2026-04-11T18:48:30.521] [ERROR] debug-file - AdaptorError: [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+    at HvigorLogger.printErrorExit (/Users/zhangyang/.hvigor/tools/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at Hvigor._getRootNode (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1269)
+    at Hvigor.getRootNodeInternal (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1108)
+    at ProjectBuildProfileLoader.getBuildProfile (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/loader/file/project-build-profile-loader.js:1:690)
+    at ProjectModelImpl.projectBuildProfileCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:9331)
+    at new CoreProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:2627)
+    at new ProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/project-model-impl.js:1:596)
+    at new AppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/strategy/stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/app-plugin-builder.js:1:1485)
+[2026-04-11T18:48:30.522] [ERROR] debug-file - BUILD FAILED in 1 s 111 ms 
+[2026-04-11T18:48:30.526] [DEBUG] debug-file - Cleanup worker 0.
+[2026-04-11T18:48:30.526] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2026-04-11T18:48:30.526] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-04-11T18:48:30.526] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-04-11T18:48:30.526] [DEBUG] debug-file - Cleanup worker 1.
+[2026-04-11T18:48:30.526] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2026-04-11T18:48:30.526] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-04-11T18:48:30.526] [DEBUG] debug-file - Current resident worker size: 2.
+[2026-04-11T18:48:30.528] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-11T18:48:30.528] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-11T18:48:30.554] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-11T18:48:30.557] [DEBUG] debug-file - worker[1] exits with exit code 1.
+[2026-04-11T18:48:30.558] [DEBUG] debug-file - worker[0] exits with exit code 1.
+[2026-04-11T18:48:30.559] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T18:48:30.559] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T18:48:30.560] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T18:48:30.560] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T18:48:36.751] [DEBUG] debug-file - session manager: set active socket. socketId=O2jnh48SBCuKYnMvAAAD
+[2026-04-11T18:48:36.753] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T18:48:36.754] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-11T18:48:36.755] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T18:48:36.756] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-11T18:48:36.756] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-11T18:48:36.756] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-11T18:48:36.756] [DEBUG] debug-file - hvigorfile, resolving /Users/zhangyang/ai-wechat-digest/harmony_app/hvigorfile.ts
+[2026-04-11T18:48:36.761] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-04-11T18:48:36.761] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-04-11T18:48:36.761] [DEBUG] debug-file - Starting plugin build process
+[2026-04-11T18:48:36.761] [DEBUG] debug-file - App plugin prepare start...
+[2026-04-11T18:48:36.761] [DEBUG] debug-file - App plugin prepare end...
+[2026-04-11T18:48:36.761] [DEBUG] debug-file - App plugin creating...
+[2026-04-11T18:48:36.763] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-04-11T18:48:36.763] [ERROR] debug-file - [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+
+[31m* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+[2026-04-11T18:48:36.763] [DEBUG] debug-file - ERROR: stacktrace = AdaptorError: [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+    at HvigorLogger.printErrorExit (/Users/zhangyang/.hvigor/tools/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at Hvigor._getRootNode (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1269)
+    at Hvigor.getRootNodeInternal (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1108)
+    at ProjectBuildProfileLoader.getBuildProfile (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/loader/file/project-build-profile-loader.js:1:690)
+    at ProjectModelImpl.projectBuildProfileCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:9331)
+    at new CoreProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:2627)
+    at new ProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/project-model-impl.js:1:596)
+    at new AppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/strategy/stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/app-plugin-builder.js:1:1485)
+[2026-04-11T18:48:36.763] [ERROR] debug-file - AdaptorError: [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+    at HvigorLogger.printErrorExit (/Users/zhangyang/.hvigor/tools/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at Hvigor._getRootNode (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1269)
+    at Hvigor.getRootNodeInternal (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1108)
+    at ProjectBuildProfileLoader.getBuildProfile (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/loader/file/project-build-profile-loader.js:1:690)
+    at ProjectModelImpl.projectBuildProfileCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:9331)
+    at new CoreProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:2627)
+    at new ProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/project-model-impl.js:1:596)
+    at new AppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/strategy/stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/app-plugin-builder.js:1:1485)
+[2026-04-11T18:48:36.763] [ERROR] debug-file - BUILD FAILED in 10 ms 
+[2026-04-11T18:48:36.765] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-04-11T18:48:36.766] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-11T18:48:36.768] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-11T18:48:36.768] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-11T18:48:36.768] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T18:48:36.768] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T18:48:36.768] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T18:48:36.768] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T18:48:44.467] [DEBUG] debug-file - session manager: set active socket. socketId=b3cmbKGfJg-RER5jAAAF
+[2026-04-11T18:48:44.469] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T18:48:44.470] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-11T18:48:44.470] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T18:48:44.471] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-11T18:48:44.471] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-11T18:48:44.472] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-11T18:48:44.472] [DEBUG] debug-file - hvigorfile, resolving /Users/zhangyang/ai-wechat-digest/harmony_app/hvigorfile.ts
+[2026-04-11T18:48:44.476] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-04-11T18:48:44.476] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-04-11T18:48:44.476] [DEBUG] debug-file - Starting plugin build process
+[2026-04-11T18:48:44.476] [DEBUG] debug-file - App plugin prepare start...
+[2026-04-11T18:48:44.476] [DEBUG] debug-file - App plugin prepare end...
+[2026-04-11T18:48:44.476] [DEBUG] debug-file - App plugin creating...
+[2026-04-11T18:48:44.477] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-04-11T18:48:44.477] [ERROR] debug-file - [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+
+[31m* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+[2026-04-11T18:48:44.477] [DEBUG] debug-file - ERROR: stacktrace = AdaptorError: [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+    at HvigorLogger.printErrorExit (/Users/zhangyang/.hvigor/tools/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at Hvigor._getRootNode (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1269)
+    at Hvigor.getRootNodeInternal (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1108)
+    at ProjectBuildProfileLoader.getBuildProfile (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/loader/file/project-build-profile-loader.js:1:690)
+    at ProjectModelImpl.projectBuildProfileCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:9331)
+    at new CoreProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:2627)
+    at new ProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/project-model-impl.js:1:596)
+    at new AppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/strategy/stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/app-plugin-builder.js:1:1485)
+[2026-04-11T18:48:44.477] [ERROR] debug-file - AdaptorError: [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+    at HvigorLogger.printErrorExit (/Users/zhangyang/.hvigor/tools/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at Hvigor._getRootNode (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1269)
+    at Hvigor.getRootNodeInternal (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1108)
+    at ProjectBuildProfileLoader.getBuildProfile (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/loader/file/project-build-profile-loader.js:1:690)
+    at ProjectModelImpl.projectBuildProfileCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:9331)
+    at new CoreProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:2627)
+    at new ProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/project-model-impl.js:1:596)
+    at new AppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/strategy/stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/app-plugin-builder.js:1:1485)
+[2026-04-11T18:48:44.478] [ERROR] debug-file - BUILD FAILED in 8 ms 
+[2026-04-11T18:48:44.480] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-04-11T18:48:44.480] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-11T18:48:44.507] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-11T18:48:44.507] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-11T18:48:44.507] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T18:48:44.507] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T18:48:44.507] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T18:48:44.507] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T18:48:50.306] [DEBUG] debug-file - session manager: set active socket. socketId=VecbNtGd3izTisLRAAAH
+[2026-04-11T18:48:50.307] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T18:48:50.308] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-04-11T18:48:50.309] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T18:48:50.310] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-04-11T18:48:50.310] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-04-11T18:48:50.310] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-04-11T18:48:50.311] [DEBUG] debug-file - hvigorfile, resolving /Users/zhangyang/ai-wechat-digest/harmony_app/hvigorfile.ts
+[2026-04-11T18:48:50.314] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-04-11T18:48:50.314] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-04-11T18:48:50.314] [DEBUG] debug-file - Starting plugin build process
+[2026-04-11T18:48:50.314] [DEBUG] debug-file - App plugin prepare start...
+[2026-04-11T18:48:50.314] [DEBUG] debug-file - App plugin prepare end...
+[2026-04-11T18:48:50.314] [DEBUG] debug-file - App plugin creating...
+[2026-04-11T18:48:50.315] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2026-04-11T18:48:50.315] [ERROR] debug-file - [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+
+[31m* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+
+[2026-04-11T18:48:50.315] [DEBUG] debug-file - ERROR: stacktrace = AdaptorError: [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+    at HvigorLogger.printErrorExit (/Users/zhangyang/.hvigor/tools/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at Hvigor._getRootNode (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1269)
+    at Hvigor.getRootNodeInternal (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1108)
+    at ProjectBuildProfileLoader.getBuildProfile (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/loader/file/project-build-profile-loader.js:1:690)
+    at ProjectModelImpl.projectBuildProfileCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:9331)
+    at new CoreProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:2627)
+    at new ProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/project-model-impl.js:1:596)
+    at new AppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/strategy/stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/app-plugin-builder.js:1:1485)
+[2026-04-11T18:48:50.315] [ERROR] debug-file - AdaptorError: [31m00302013 Script Error
+Error Message: The root node is not yet available for build. At file: hvigorfile.ts or hvigorconfig.ts
+
+* Try the following:
+  > Check if the hvigorconfig.ts or hvigorfile.ts is configured correctly.
+  > Check if the build-profile.json5 is configured correctly.
+[39m
+    at HvigorLogger.printErrorExit (/Users/zhangyang/.hvigor/tools/hvigor/src/base/log/hvigor-log.js:1:5087)
+    at Hvigor._getRootNode (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1269)
+    at Hvigor.getRootNodeInternal (/Users/zhangyang/.hvigor/tools/hvigor/src/base/external/core/hvigor.js:1:1108)
+    at ProjectBuildProfileLoader.getBuildProfile (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/utils/loader/file/project-build-profile-loader.js:1:690)
+    at ProjectModelImpl.projectBuildProfileCheck (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:9331)
+    at new CoreProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/core-project-model-impl.js:1:2627)
+    at new ProjectModelImpl (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/model/project/project-model-impl.js:1:596)
+    at new AppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/app-plugin.js:1:514)
+    at StageInitializationStrategy.createAppPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/strategy/stage-init-strategy.js:1:949)
+    at AppPluginBuilder.createPlugin (/Users/zhangyang/.hvigor/tools/hvigor-ohos-plugin/src/plugin/builder/app-plugin-builder.js:1:1485)
+[2026-04-11T18:48:50.316] [ERROR] debug-file - BUILD FAILED in 8 ms 
+[2026-04-11T18:48:50.318] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2026-04-11T18:48:50.318] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-04-11T18:48:50.320] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-11T18:48:50.320] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-04-11T18:48:50.320] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T18:48:50.320] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T18:48:50.320] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-04-11T18:48:50.320] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.

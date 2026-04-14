@@ -1,0 +1,36 @@
+name: AIRecorder
+options:
+  bundleIdPrefix: com.airecorder
+  deploymentTarget:
+    iOS: "16.0"
+  xcodeVersion: "15"
+
+targets:
+  AIRecorder:
+    type: application
+    platform: iOS
+    sources:
+      - path: AIRecorder
+    info:
+      path: AIRecorder/Info.plist
+      properties:
+        UIBackgroundModes:
+          - audio
+        NSMicrophoneUsageDescription: "需要麦克风权限以自动检测并录制面对面对话，帮助您整理会议要点"
+        NSLocalNetworkUsageDescription: "需要访问局域网中的 Mac 服务器以上传录音文件进行分析"
+        NSAppTransportSecurity:
+          NSAllowsLocalNetworking: true
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        CFBundleDisplayName: "AI对话助手"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.airecorder.recorder
+        DEVELOPMENT_TEAM: ""
+        CODE_SIGN_STYLE: Automatic
+        SWIFT_VERSION: "5.9"
+        IPHONEOS_DEPLOYMENT_TARGET: "16.0"
+        PRODUCT_NAME: AIRecorder
+      configs:
+        Debug:
+          CODE_SIGNING_ALLOWED: YES
